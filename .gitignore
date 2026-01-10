@@ -1,0 +1,9 @@
+# Ignore build folders
+**/target
+
+# IntelliJ IDE files
+**/.idea
+**/*.iml
+
+# Logs
+*.log
