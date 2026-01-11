@@ -1,4 +1,4 @@
-package com.abhiraj.module1;
+package com.abhiraj.module1.module1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
