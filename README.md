@@ -1,10 +1,8 @@
 # Spring Boot AI – Learning Repository
 
-This repository contains module-wise learning code created while following
-Coding Shuttle’s Spring Boot AI Cohort.
+This repository contains module-wise learning code
 
 ## Structure
-- `modules/` – independent learning modules
 - Each module is an isolated Spring Boot project
 
 ## Note
