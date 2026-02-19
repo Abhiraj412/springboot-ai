@@ -154,3 +154,6 @@ Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name
 2026-01-25 17:04:07.168695+05:30 jdbc[14]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
 select * from employees [42102-240]
+2026-01-26 21:03:34.264592+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select * from employees [42102-240]
