@@ -37,7 +37,14 @@ public class LambdaAndStreams {
         obj4.walk(30, true);
 
         //Streams
-        List<String> fruits = List.of("Banana", "Pineapple", "Apple", "Mango");
+        List<String> fruits = List.of("Banana", "Pineapple", "Apple", "Mango", "Apple");
+
+        List<String> unique = fruits
+                .stream()
+                .distinct()
+                .collect(Collectors.toList());
+
+        System.out.println(unique);
 
 //        List<Integer> fruitLength = fruits
 //                .stream()
@@ -53,15 +60,15 @@ public class LambdaAndStreams {
 //
 //        fruitLength.forEach(System.out::println);
 
-        Map<String,Integer> fruitList = fruits
-                .stream()
-                //.map(fruit -> fruit.length())
-                .collect(Collectors.toMap(
-                        fruit -> fruit,
-                        String::length
-                ));
-
-        System.out.println(fruitList);
+//        Map<String,Integer> fruitList = fruits
+//                .stream()
+//                //.map(fruit -> fruit.length())
+//                .collect(Collectors.toMap(
+//                        fruit -> fruit,
+//                        String::length
+//                ));
+//
+//        System.out.println(fruitList);
 
 //        Stream<String> stream = fruits.stream();
 //
